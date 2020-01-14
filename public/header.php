@@ -25,14 +25,17 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-light bg-light">
-            <a class="navbar-brand" href="index.php">
-              <img src="assets/images/Logo-EZ.png" width="50" height="50" class="d-inline-block align-top" alt="">
-            </a>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
+      <nav class="navbar navbar-light bg-light">
+          <a class="navbar-brand" href="index.php">
+            <img src="assets/images/Logo-EZ.png" width="50" height="50" class="d-inline-block align-top" alt="">
+          </a>
+          <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class='nav-link' href="cv.php">C.V</a>
+              </li>
+              <li class="nav-item">
                 <a class='nav-link' href="contact.php">Contact</a>
-                </li>
-            </ul>
-          </nav>
+              </li>
+          </ul>
+        </nav>
     </header>

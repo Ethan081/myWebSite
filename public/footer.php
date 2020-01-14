@@ -7,12 +7,12 @@
             </article>
             <article class="social_links">
                 <a href="https://www.linkedin.com/in/etienne-z/">
-                    <span style="font-size: 48px; color: Dodgerblue;">
+                    <span style="font-size: 30px; color: Dodgerblue;">
                         <i class="fab fa-linkedin-in"></i>
                     </span>
                 </a>
                 <a href="https://github.com/Ethan081">
-                    <span style="font-size: 48px; color: Dodgerblue;">
+                    <span style="font-size: 30px; color: Dodgerblue;">
                         <i class="fab fa-github"></i>
                     </span>
                 </a>

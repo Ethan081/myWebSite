@@ -1,8 +1,8 @@
 <?php 
 $title = 'Home';
+
 require 'header.php';
 ?>   
-
     <main>
         <section class="home_page">
             <div class="name_tag_line">
