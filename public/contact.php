@@ -20,7 +20,7 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
         </form>
-        <button >Envoyer</button>
+        <button type="button" class="btn btn-success">Envoyer</button>
       </article>
     </section>   
   </main>

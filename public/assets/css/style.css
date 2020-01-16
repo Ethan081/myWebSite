@@ -5,13 +5,29 @@
     --font-color-light:whitesmoke;
     --font-color-dark: gray;
 }
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Mono', monospace; */
 
 /* ----------------------------------------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: whitesmoke;
 }
 ul{
     list-style-type: none;
+}
+p, li{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Roboto Mono', monospace;
+}
+h2, h3, h4, h5{
+    font-family: 'Roboto', sans-serif;
 }
 /* ----------------------------------------------------------- */
 .home_page, .presentation{
@@ -66,19 +82,29 @@ ul{
 }
 .projects{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .project_title{
     text-align: center;
 
 }
 .projet_box{
-    width: 100px;
-    height: 100px;
-    background-color:red;
+    width: 400px;
+    border: solid 3px var(--main-bg-color);
     border-radius: 20px;
-    border: 2px solid rgba(211, 211, 211, 1);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
+
+.font_color{
+    color: var(--main-bg-color);
+}
+    
+    
+
 /* ----------------------------------------------------------- */
 .footer{
    
@@ -86,6 +112,7 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 200px;
 }
 .logo {
     margin-top: 30px;
@@ -94,11 +121,7 @@ ul{
     margin-bottom: 30px;
 }
 /* ----------------------------------------------------------- */
-.container{
-    width: 100%;
-    height: 100vh;
-    
-}
+
 .form_box{
     width: 50%;
     margin: 0 auto;

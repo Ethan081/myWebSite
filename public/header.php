@@ -17,6 +17,7 @@
         }
       ?>
     </title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/70ece4c924.js" crossorigin="anonymous"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
